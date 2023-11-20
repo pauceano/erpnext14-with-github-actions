@@ -7,7 +7,7 @@ on:
 jobs:
   deploy-erp:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 11
 
     steps:
             
