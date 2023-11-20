@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 11
 
-    steps:
-            
+    steps:            
     - name: Deploy to the server
       uses: appleboy/ssh-action@master
       env:
